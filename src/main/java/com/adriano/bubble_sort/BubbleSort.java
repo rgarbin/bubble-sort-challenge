@@ -6,7 +6,7 @@ import java.util.List;
 
 public class BubbleSort {
 
-    public List<Integer> shortList(List<Integer> list) {
+    public List<Integer> sortList(List<Integer> list) {
 
         if (list == null)
             return Arrays.asList();
