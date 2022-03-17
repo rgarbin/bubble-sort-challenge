@@ -56,4 +56,12 @@ public class SortTest {
         Assert.assertEquals(expected, result);
     }
 
+    @Test
+    public void testShotFourElements() {
+        List<Integer> result = bubbleSort.shortList(Arrays.asList(2, 4, 1, 3));
+        List<Integer> expected = Arrays.asList(1, 2, 3, 4);
+
+        Assert.assertEquals(expected, result);
+    }
+
 }
